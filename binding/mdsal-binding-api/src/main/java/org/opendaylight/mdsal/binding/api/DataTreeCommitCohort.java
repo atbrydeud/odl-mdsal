@@ -27,7 +27,7 @@ import org.opendaylight.yangtools.yang.binding.DataObject;
  * negatively affect performance of data broker / store.
  *
  * Implementations of this interface are discouraged, unless you really need ability to veto data
- * tree changes, or to provide external state change in sync with visibility of commited data.
+ * tree changes, or to provide external state change in sync with visibility of committed data.
  *
  *
  * <h2>Implementation requirements</h2>

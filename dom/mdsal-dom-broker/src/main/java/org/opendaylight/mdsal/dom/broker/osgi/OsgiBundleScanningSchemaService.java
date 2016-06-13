@@ -142,7 +142,7 @@ public class OsgiBundleScanningSchemaService implements SchemaContextProvider, D
             try {
                 listener.getInstance().onGlobalContextUpdated(snapshot);
             } catch (final Exception e) {
-                LOG.error("Exception occured during invoking listener", e);
+                LOG.error("Exception occurred during invoking listener", e);
             }
         }
         if (services != null) {
@@ -151,7 +151,7 @@ public class OsgiBundleScanningSchemaService implements SchemaContextProvider, D
                 try {
                     listener.onGlobalContextUpdated(snapshot);
                 } catch (final Exception e) {
-                    LOG.error("Exception occured during invoking listener {}", listener, e);
+                    LOG.error("Exception occurred during invoking listener {}", listener, e);
                 }
             }
         }

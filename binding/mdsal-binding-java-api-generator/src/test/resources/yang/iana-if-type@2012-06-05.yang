@@ -1121,12 +1121,12 @@ module iana-if-type {
       enum "pon155" {
         value 207;
         description
-          "FSAN 155Mb Symetrical PON interface";
+          "FSAN 155Mb Symmetrical PON interface";
       }
       enum "pon622" {
         value 208;
         description
-          "FSAN622Mb Symetrical PON interface";
+          "FSAN622Mb Symmetrical PON interface";
       }
       enum "bridge" {
         value 209;

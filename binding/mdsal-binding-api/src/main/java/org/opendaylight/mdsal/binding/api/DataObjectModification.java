@@ -29,7 +29,7 @@ import org.opendaylight.yangtools.yang.binding.InstanceIdentifier.PathArgument;
 public interface DataObjectModification<T extends DataObject> extends org.opendaylight.yangtools.concepts.Identifiable<PathArgument> {
 
     /**
-     * Represents type of modification which has occured.
+     * Represents type of modification which has occurred.
      *
      */
     enum ModificationType {

@@ -31,7 +31,7 @@ public class ChoiceCaseGenTypesTest extends AbstractTypesTest {
     }
 
     private static GeneratedType checkGeneratedType(final List<Type> genTypes, final String genTypeName,
-            final String packageName, final int occurences) {
+            final String packageName, final int occurrences) {
         GeneratedType searchedGenType = null;
         int searchedGenTypeCounter = 0;
         for (Type type : genTypes) {
@@ -44,7 +44,7 @@ public class ChoiceCaseGenTypesTest extends AbstractTypesTest {
             }
         }
         assertNotNull("Generated type " + genTypeName + " wasn't found", searchedGenType);
-        assertEquals(genTypeName + " generated type has incorrect number of occurences.", occurences,
+        assertEquals(genTypeName + " generated type has incorrect number of occurrences.", occurrences,
                 searchedGenTypeCounter);
         return searchedGenType;
 

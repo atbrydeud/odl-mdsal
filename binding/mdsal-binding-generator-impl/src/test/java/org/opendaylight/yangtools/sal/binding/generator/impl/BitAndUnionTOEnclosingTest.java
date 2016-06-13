@@ -87,7 +87,7 @@ public class BitAndUnionTOEnclosingTest {
 
         // nested types in leaf, contains Lf?
         assertNotNull("Lf TO wasn't found.", lfLeaf);
-        assertEquals("Lf TO has incorrect number of occurences.", 1, lfLeafCounter);
+        assertEquals("Lf TO has incorrect number of occurrences.", 1, lfLeafCounter);
         assertEquals("Lf has incorrect package name.",
                 "org.opendaylight.yang.gen.v1.urn.bit.union.in.leaf.rev130626.ParentContainer",
                 lfLeaf.getPackageName());
@@ -98,7 +98,7 @@ public class BitAndUnionTOEnclosingTest {
 
         // nested types in leaf, contains Lf1?
         assertNotNull("Lf1 TO wasn't found.", lf1Leaf);
-        assertEquals("Lf1 TO has incorrect number of occurences.", 1, lf1LeafCounter);
+        assertEquals("Lf1 TO has incorrect number of occurrences.", 1, lf1LeafCounter);
         assertEquals("Lf1 has incorrect package name.",
                 "org.opendaylight.yang.gen.v1.urn.bit.union.in.leaf.rev130626.ParentContainer",
                 lf1Leaf.getPackageName());
@@ -111,7 +111,7 @@ public class BitAndUnionTOEnclosingTest {
 
         // nested types in leaf, contains Lf2?
         assertNotNull("Lf2 TO wasn't found.", lf2Leaf);
-        assertEquals("Lf2 TO has incorrect number of occurences.", 1, lf2LeafCounter);
+        assertEquals("Lf2 TO has incorrect number of occurrences.", 1, lf2LeafCounter);
         assertEquals("Lf2 has incorrect package name.",
                 "org.opendaylight.yang.gen.v1.urn.bit.union.in.leaf.rev130626.ParentContainer",
                 lf2Leaf.getPackageName());
@@ -138,10 +138,10 @@ public class BitAndUnionTOEnclosingTest {
         }
 
         assertNotNull("TypeUnion TO wasn't found.", typeUnionTypedef);
-        assertEquals("TypeUnion TO has incorrect number of occurences.", 1, typeUnionTypedefCounter);
+        assertEquals("TypeUnion TO has incorrect number of occurrences.", 1, typeUnionTypedefCounter);
 
         assertNotNull("TypeUnion TO wasn't found.", typeUnionTypedef);
-        assertEquals("TypeUnion TO has incorrect number of occurences.", 1, typeUnionTypedefCounter);
+        assertEquals("TypeUnion TO has incorrect number of occurrences.", 1, typeUnionTypedefCounter);
         assertEquals("TypeUnion has incorrect package name.",
                 "org.opendaylight.yang.gen.v1.urn.bit.union.in.leaf.rev130626", typeUnionTypedef.getPackageName());
 
@@ -170,7 +170,7 @@ public class BitAndUnionTOEnclosingTest {
         }
 
         assertNotNull("TypeUnion1 TO wasn't found.", typeUnion1);
-        assertEquals("TypeUnion1 TO has incorrect number of occurences.", 1, typeUnion1Counter);
+        assertEquals("TypeUnion1 TO has incorrect number of occurrences.", 1, typeUnion1Counter);
 
         assertEquals("TypeUnion1 has incorrect package name.",
                 "org.opendaylight.yang.gen.v1.urn.bit.union.in.leaf.rev130626", typeUnion1.getPackageName());
@@ -183,7 +183,7 @@ public class BitAndUnionTOEnclosingTest {
         containsAttributes(typeUnion1, true, false, true, new NameTypePattern("typeUnion2", "TypeUnion2"));
 
         assertNotNull("TypeUnion2 TO wasn't found.", typeUnion2);
-        assertEquals("TypeUnion2 TO has incorrect number of occurences.", 1, typeUnion2Counter);
+        assertEquals("TypeUnion2 TO has incorrect number of occurrences.", 1, typeUnion2Counter);
 
         assertEquals("TypeUnion2 has incorrect package name.",
                 "org.opendaylight.yang.gen.v1.urn.bit.union.in.leaf.rev130626", typeUnion2.getPackageName());

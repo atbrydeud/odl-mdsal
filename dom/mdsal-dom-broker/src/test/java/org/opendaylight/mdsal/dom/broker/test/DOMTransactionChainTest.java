@@ -118,13 +118,13 @@ public class DOMTransactionChainTest {
         DOMDataTreeReadTransaction storeReadTx = domBroker.newReadOnlyTransaction();
 
         /**
-         * We verify transaction is commited to store, container should exists
+         * We verify transaction is committed to store, container should exists
          * in datastore.
          */
         assertTestContainerExists(storeReadTx);
 
         /**
-         * third transaction is sealed and commited
+         * third transaction is sealed and committed
          */
         ListenableFuture<Void> thirdDeleteTxFuture = thirdDeleteTx.submit();
         assertCommitSuccessful(thirdDeleteTxFuture);
@@ -152,7 +152,7 @@ public class DOMTransactionChainTest {
 
         /**
          * We alocate chained transaction - read transaction, note first one is
-         * still not commited to datastore, so this allocation should fail with
+         * still not committed to datastore, so this allocation should fail with
          * IllegalStateException.
          */
         try {

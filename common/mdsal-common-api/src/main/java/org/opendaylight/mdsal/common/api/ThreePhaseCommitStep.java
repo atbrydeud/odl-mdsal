@@ -29,7 +29,7 @@ public interface ThreePhaseCommitStep {
      * Invoked on transaction aborted.
      *
      * This callback is invoked by three-phase commit coordinator if associated data transaction
-     * will not be commited and is being aborted.
+     * will not be committed and is being aborted.
      *
      * Implementation MUST rollback any changes, which were introduced by implementation based on
      * supplied data.

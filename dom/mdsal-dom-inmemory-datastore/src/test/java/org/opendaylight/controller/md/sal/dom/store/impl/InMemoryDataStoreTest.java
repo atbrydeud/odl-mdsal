@@ -374,7 +374,7 @@ public class InMemoryDataStoreTest {
 
         /**
          * We alocate chained transaction - read transaction, note first one is
-         * still not commited to datastore.
+         * still not committed to datastore.
          */
         DOMStoreReadTransaction secondReadTx = txChain.newReadOnlyTransaction();
 
@@ -422,7 +422,7 @@ public class InMemoryDataStoreTest {
         // Alocates store transacion
         DOMStoreReadTransaction storeReadTx = domStore.newReadOnlyTransaction();
         /**
-         * We verify transaction is commited to store, container should exists
+         * We verify transaction is committed to store, container should exists
          * in datastore.
          */
         assertTestContainerExists(storeReadTx);
@@ -447,7 +447,7 @@ public class InMemoryDataStoreTest {
         assertThreePhaseCommit(txOne.ready());
 
         /**
-         * Asserts that txTwo could not be commited
+         * Asserts that txTwo could not be committed
          */
         assertFalse(txTwo.ready().canCommit().get());
     }

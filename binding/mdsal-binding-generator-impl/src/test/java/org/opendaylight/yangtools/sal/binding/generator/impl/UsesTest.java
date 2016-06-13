@@ -173,14 +173,14 @@ public class UsesTest {
         }
 
         assertNotNull("Generated type for grouping-container-test wasn't generated", groupingContainerTest);
-        assertEquals("GroupingContainerTest interface - incorrect number of occurences", 1,
+        assertEquals("GroupingContainerTest interface - incorrect number of occurrences", 1,
                 groupingContainerTestCounter);
         assertEquals("GroupingContainerTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.container.rev130718",
                 groupingContainerTest.getPackageName());
 
         assertNotNull("Generated type for container-test wasn't generated", containerTest);
-        assertEquals("ContainerTest interface - incorrect number of occurences", 1, containerTestCount);
+        assertEquals("ContainerTest interface - incorrect number of occurrences", 1, containerTestCount);
         assertEquals("ContainerTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.container.rev130718", containerTest.getPackageName());
 
@@ -226,13 +226,13 @@ public class UsesTest {
         }
 
         assertNotNull("Generated type for grouping-grouping-test wasn't generated", groupingGroupingTest);
-        assertEquals("GroupingGroupingTest interface - incorrect number of occurences", 1, groupingGroupingTestCounter);
+        assertEquals("GroupingGroupingTest interface - incorrect number of occurrences", 1, groupingGroupingTestCounter);
         assertEquals("GroupingGroupingTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.grouping.rev130718",
                 groupingGroupingTest.getPackageName());
 
         assertNotNull("Generated type for grouping-test wasn't generated", groupingTest);
-        assertEquals("GroupingTest interface - incorrect number of occurences", 1, groupingTestCount);
+        assertEquals("GroupingTest interface - incorrect number of occurrences", 1, groupingTestCount);
         assertEquals("GroupingTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.grouping.rev130718", groupingTest.getPackageName());
 
@@ -287,24 +287,24 @@ public class UsesTest {
         }
 
         assertNotNull("Generated type for grouping-list-test wasn't generated", groupingListTest);
-        assertEquals("GroupingListTest interface - incorrect number of occurences", 1, groupingListTestCounter);
+        assertEquals("GroupingListTest interface - incorrect number of occurrences", 1, groupingListTestCounter);
         assertEquals("GroupingListTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.list.rev130718", groupingListTest.getPackageName());
 
         assertNotNull("Generated type for list-test wasn't generated", listTest);
-        assertEquals("ListTest interface - incorrect number of occurences", 1, listTestCounter);
+        assertEquals("ListTest interface - incorrect number of occurrences", 1, listTestCounter);
         assertEquals("ListTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.list.rev130718", listTest.getPackageName());
 
         assertNotNull("Generated type for container-grouping-list-test wasn't generated", containerGroupingListTest);
-        assertEquals("ContainerGroupingListTest interface - incorrect number of occurences", 1,
+        assertEquals("ContainerGroupingListTest interface - incorrect number of occurrences", 1,
                 containerGroupingListTestCounter);
         assertEquals("ContainerGroupingListTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.list.rev130718.grouping.list.test",
                 containerGroupingListTest.getPackageName());
 
         assertNotNull("Generated type for list-grouping-list-test wasn't generated", listGroupingListTest);
-        assertEquals("ListGroupingListTest interface - incorrect number of occurences", 1, listGroupingListTestCounter);
+        assertEquals("ListGroupingListTest interface - incorrect number of occurrences", 1, listGroupingListTestCounter);
         assertEquals("ListGroupingListTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.list.rev130718.grouping.list.test",
                 listGroupingListTest.getPackageName());
@@ -359,12 +359,12 @@ public class UsesTest {
         }
 
         assertNotNull("Generated type for grouping-list-test wasn't generated", groupingModulTest);
-        assertEquals("GroupingModulTest interface - incorrect number of occurences", 1, groupingModulTestCounter);
+        assertEquals("GroupingModulTest interface - incorrect number of occurrences", 1, groupingModulTestCounter);
         assertEquals("GroupingModulTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.modul.rev130718", groupingModulTest.getPackageName());
 
         assertNotNull("Generated type for modul wasn't generated", groupingUsesModulData);
-        assertEquals("GroupingUsesModulData interface - incorrect number of occurences", 1,
+        assertEquals("GroupingUsesModulData interface - incorrect number of occurrences", 1,
                 groupingUsesModulDataCounter);
         assertEquals("GroupingUsesModulData isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.modul.rev130718",
@@ -426,28 +426,28 @@ public class UsesTest {
         }
 
         assertNotNull("Generated type for RPC test input wasn't generated", rpcTestInput);
-        assertEquals("RpcTestInput interface - incorrect number of occurences", 1, rpcTestInputCounter);
+        assertEquals("RpcTestInput interface - incorrect number of occurrences", 1, rpcTestInputCounter);
         assertEquals("RpcTestInput isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.rpc.rev130718", rpcTestInput.getPackageName());
 
         assertNotNull("Generated type for RPC test output wasn't generated", rpcTestOutput);
-        assertEquals("RpcTestOutput interface - incorrect number of occurences", 1, rpcTestOutputCounter);
+        assertEquals("RpcTestOutput interface - incorrect number of occurrences", 1, rpcTestOutputCounter);
         assertEquals("RpcTestOutput isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.rpc.rev130718", rpcTestOutput.getPackageName());
 
         assertNotNull("Generated type for grouping-rpc-input-test wasn't generated", groupingRpcInputTest);
-        assertEquals("RpcTestOutput interface - incorrect number of occurences", 1, groupingRpcInputTestCounter);
+        assertEquals("RpcTestOutput interface - incorrect number of occurrences", 1, groupingRpcInputTestCounter);
         assertEquals("GroupingRpcInputTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.rpc.rev130718", groupingRpcInputTest.getPackageName());
 
         assertNotNull("Generated type for grouping-rpc-output-test wasn't generated", groupingRpcOutputTest);
-        assertEquals("RpcTestOutput interface - incorrect number of occurences", 1, groupingRpcOutputTestCounter);
+        assertEquals("RpcTestOutput interface - incorrect number of occurrences", 1, groupingRpcOutputTestCounter);
         assertEquals("GroupingRpcOutputTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.rpc.rev130718", groupingRpcOutputTest.getPackageName());
 
         assertNotNull("Generated type for container-grouping-rpc-input-test wasn't generated",
                 containerGroupingRpcInputTest);
-        assertEquals("ContainerGroupingRpcInputTest interface - incorrect number of occurences", 1,
+        assertEquals("ContainerGroupingRpcInputTest interface - incorrect number of occurrences", 1,
                 containerGroupingRpcInputTestCounter);
         assertEquals("ContainerGroupingRpcInputTest isn't in correct package",
                 "org.opendaylight.yang.gen.v1.urn.grouping.uses.rpc.rev130718.grouping.rpc.input.test",
