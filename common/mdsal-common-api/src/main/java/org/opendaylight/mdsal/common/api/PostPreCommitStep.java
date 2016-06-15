@@ -49,7 +49,7 @@ public interface PostPreCommitStep extends ThreePhaseCommitStep {
      * Commits cohort transaction.
      *
      * This callback is invoked by three-phase commit coordinator if associated data transaction
-     * finished pre-commit phase and will be commited.
+     * finished pre-commit phase and will be committed.
      *
      * Implementation should make state, which were derived by implementation from associated data
      * visible.

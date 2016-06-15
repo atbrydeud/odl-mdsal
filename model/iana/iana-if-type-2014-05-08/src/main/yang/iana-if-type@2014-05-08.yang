@@ -1163,7 +1163,7 @@ module iana-if-type {
   identity pon155 {
     base iana-interface-type;
     description
-      "FSAN 155Mb Symetrical PON interface.";
+      "FSAN 155Mb Symmetrical PON interface.";
   }
 
 
@@ -1171,7 +1171,7 @@ module iana-if-type {
   identity pon622 {
     base iana-interface-type;
     description
-      "FSAN 622Mb Symetrical PON interface.";
+      "FSAN 622Mb Symmetrical PON interface.";
   }
   identity bridge {
     base iana-interface-type;

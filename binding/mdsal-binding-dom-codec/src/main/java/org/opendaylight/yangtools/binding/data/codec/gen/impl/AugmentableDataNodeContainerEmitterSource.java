@@ -17,7 +17,7 @@ abstract class AugmentableDataNodeContainerEmitterSource extends DataNodeContain
     public AugmentableDataNodeContainerEmitterSource(final AbstractStreamWriterGenerator generator, final GeneratedType type, final DataNodeContainer node) {
         super(generator, type, node);
         /*
-         * Eventhough intuition says the serializer could reference the generator directly,
+         * Even Though intuition says the serializer could reference the generator directly,
          * that is not true in OSGi environment -- so we need to resolve the reference first
          * and inject it as a static constant.
          */

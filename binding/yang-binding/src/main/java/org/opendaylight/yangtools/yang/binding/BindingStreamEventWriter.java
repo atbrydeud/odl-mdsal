@@ -16,7 +16,7 @@ import java.io.IOException;
  * Event Stream Writer for Binding Representation
  *
  *
- * <h3>Emmiting Event Stream</h3>
+ * <h3>Emitting Event Stream</h3>
  *
  * <ul>
  * <li><code>container</code> - Container node representation, start event is

@@ -74,7 +74,7 @@ module bar {
                     "This label will be excluded from the 
                     matching.  This allows removing labels that
                     would have otherwise been included because of
-                    inheritence rules.";
+                    inheritance rules.";
             }
         }
     }

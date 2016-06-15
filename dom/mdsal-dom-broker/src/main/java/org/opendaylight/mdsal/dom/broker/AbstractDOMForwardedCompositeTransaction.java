@@ -92,7 +92,7 @@ abstract class AbstractDOMForwardedCompositeTransaction<K, T extends DOMStoreTra
             } catch (Exception e) {
                 // If we did not allocated failure we allocate it
                 if (failure == null) {
-                    failure = new IllegalStateException("Uncaught exception occured during closing transaction", e);
+                    failure = new IllegalStateException("Uncaught exception occurred during closing transaction", e);
                 } else {
                     // We update it with additional exceptions, which occurred during error.
                     failure.addSuppressed(e);

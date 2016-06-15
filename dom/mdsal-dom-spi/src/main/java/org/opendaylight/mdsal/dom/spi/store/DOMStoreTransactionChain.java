@@ -19,7 +19,7 @@ public interface DOMStoreTransactionChain extends DOMStoreTransactionFactory, Au
      * Create a new read only transaction which will continue the chain. The
      * previous write transaction has to be either READY or CANCELLED.
      *
-     * If previous write transaction was already commited to data store, new
+     * If previous write transaction was already committed to data store, new
      * read-only transaction is same as obtained via {@link DOMStore#newReadOnlyTransaction()}
      * and contains merged result of previous one and current state of data store.
      *
@@ -37,9 +37,9 @@ public interface DOMStoreTransactionChain extends DOMStoreTransactionFactory, Au
 
     /**
      * Create a new read write transaction which will continue the chain. The
-     * previous read-write transaction has to be either COMMITED or CANCELLED.
+     * previous read-write transaction has to be either COMMITTED or CANCELLED.
      *
-     * If previous write transaction was already commited to data store, new
+     * If previous write transaction was already committed to data store, new
      * read-write transaction is same as obtained via {@link DOMStore#newReadWriteTransaction()}
      * and contains merged result of previous one and current state of data store.
      *

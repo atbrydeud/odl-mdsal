@@ -129,7 +129,7 @@ abstract class AbstractDOMForwardedTransactionFactory<T extends DOMStoreTransact
      * <li> {@link DOMDataTreeWriteTransaction#submit()} - results in invoking
      * {@link DOMStoreWriteTransaction#ready()}, gathering all resulting cohorts and then invoking
      * finalized implementation callback {@link #submit(DOMDataTreeWriteTransaction, Collection)} with
-     * transaction which was commited and gathered results.</li>
+     * transaction which was committed and gathered results.</li>
      * </ul>
      *
      * Id of returned transaction is generated via {@link #newTransactionIdentifier()}.

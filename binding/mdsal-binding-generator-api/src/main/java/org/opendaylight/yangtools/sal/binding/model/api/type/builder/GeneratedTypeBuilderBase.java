@@ -176,7 +176,7 @@ public interface GeneratedTypeBuilderBase<T extends GeneratedTypeBuilderBase<T>>
      * <code>name</code>
      *
      * @param name
-     *            of property which existance is checked
+     *            of property which existence is checked
      * @return true if property <code>name</code> exists in list of properties.
      */
     boolean containsProperty(String name);
